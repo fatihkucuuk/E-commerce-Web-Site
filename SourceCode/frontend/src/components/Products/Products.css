@@ -1,0 +1,83 @@
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around; /* Ürünleri eşit aralıklarla dağıt */
+  padding: 20px 5%; /* Kenarlardan boşluk */
+}
+
+.product {
+  position: relative;
+  width: calc(20% - 20px);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.product:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+  width: 100%;
+  height: 300px; /* Resim yüksekliği */
+  object-fit: contain; /* Resmi orantılı şekilde sığdırır, gerekirse keser */
+  object-position: center 20%; /* Resmin odak noktasını ayarlar, üst kısmı daha fazla gösterir */
+}
+
+.product h3 {
+  padding: 10px;
+  margin: 0;
+  font-size: 16px; /* Başlık boyutu */
+  color: #333;
+  text-align: center;
+}
+
+.price {
+  font-size: 1rem; /* Fiyat font boyutu */
+  background-color: black; /* Fiyat kutusu arka plan rengi */
+  color: #ffffff; /* Fiyat yazı rengi */
+  padding: 8px 12px;
+  margin-top: 10px;
+  position: relative; /* Fiyat kutusunun konumunu ayarlar */
+  align-self: flex-end; /* Fiyat kutusunu sağa hizalar */
+  margin-left: auto;
+  margin-right: 0;
+}
+
+@media (max-width: 1024px) {
+  .product {
+    width: calc(33.333% - 20px); /* 3 ürün bir satırda */
+  }
+}
+
+@media (max-width: 768px) {
+  .product {
+    width: calc(50% - 20px); /* 2 ürün bir satırda */
+  }
+}
+
+@media (max-width: 480px) {
+  .product {
+    width: 100%; /* Mobil cihazlarda tam genişlik */
+    margin-bottom: 20px; /* Daha fazla boşluk */
+  }
+}
+
+.rating {
+  color: lightgray; /* Altın rengi */
+  font-size: 0.8rem; /* Yıldız boyutu */
+  text-align: center;
+  margin: 5px 0;
+}
+
+.rating .filled {
+  color: black; /* Dolu yıldız rengi */
+}

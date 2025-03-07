@@ -1,0 +1,64 @@
+.add-admin-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px; /* Boşluğu azaltmak için bu satırı ekleyin */
+  }
+  
+  .form-container {
+    flex: 1;
+  }
+  
+  .form-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .admin-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .admin-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .admin-form .form-group input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .admin-form .btn-primary {
+    width: 50%;
+    padding: 10px;
+    background-color: white;
+    border: solid 1px;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .admin-form .btn-primary:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .list-container {
+    flex: 1;
+  }
+  
+  .admin-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .admin-table th, .admin-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .admin-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }

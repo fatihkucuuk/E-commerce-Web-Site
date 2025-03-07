@@ -1,0 +1,54 @@
+.admin-panel-container {
+    display: flex;
+    height: 100%;
+  }
+  
+  .menu-container {
+    width: 400px;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .menu-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .menu-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-item {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .menu-item:hover {
+    background-color: black;
+    color: white;
+    
+  }
+  
+  .menu-item.active {
+    background-color: black;
+    color: #fff;
+  }
+  
+  .content-container {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .content-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #fff;
+  }
+  

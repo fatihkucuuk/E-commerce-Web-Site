@@ -1,0 +1,61 @@
+.products-container {
+    padding: 20px;
+  }
+  
+  .products-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .products-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .products-table th,
+  .products-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .products-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .products-table td {
+    vertical-align: middle;
+  }
+  
+  .restore-button {
+    background-color: white;
+    color: black;
+    border: solid 1px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .restore-button:hover {
+    background-color: black;
+    color: white;
+  }
+  .save-button {
+    background-color: black; /* Yeşil */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .save-button i {
+    margin-right: 8px;
+  }
+  

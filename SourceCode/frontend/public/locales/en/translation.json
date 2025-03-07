@@ -1,0 +1,172 @@
+{
+
+    "header" : {
+
+        "sale" : "SUMMER SALE FOR ALL SUMMER PRODUCTS AND FREE DELIVERY - OFF 50%! SHOP NOW",
+
+        "home" : "HOME",
+        "products" : "PRODUCTS",
+        "contact" : "CONTACT"
+
+    },
+
+    "policy" : {
+
+        "freedelivery" : "FREE DELIVERY",
+        "freedelivery2" : "From $59.89",
+
+        "support" : "SUPPORT 24/7",
+        "support2" : "Online 24 hours",
+
+        "return" : "30 DAYS RETURN",
+        "return2" : "Simply return it within 30 days",
+
+        "payment" : "PAYMENT METHOD",
+        "payment2" : "Secure Payment"
+    },
+
+    "home" : {
+
+        "main-slider" : {
+
+            "slider1" : "SUMMER 2024",
+            "slider2" : "SAVE UP TO 50%",
+            "sliderbtn" : "EXPLORE NOW"
+
+    },
+
+        "campaignsingle" : {
+
+            "sale" : "New Season Sale",
+            "sale2" : "40% OFF",
+            "salebtn" : "SHOP NOW"
+
+        },
+
+        "featured" : {
+
+            "products" : "Featured Products",
+            "viewall": "View All",
+            "campaignitem1": { 
+                "text1": "Women Casual",
+                "text2": "Featured", 
+                "text3": "Opportunity",
+                "text4": "In Clothing Style" 
+            },
+
+            "campaignitem2": { 
+                "text1": "Men Casual",
+                "text2": "Featured", 
+                "text3": "Opportunity",
+                "text4": "In Clothing Style" 
+            },
+
+            "campaignitem3": { 
+                "text1": "Streatwear",
+                "text2": "Featured", 
+                "text3": "Opportunity",
+                "text4": "In Clothing Style" 
+            },
+
+            "campaignitem4": { 
+                "text1": "Denim",
+                "text2": "Featured", 
+                "text3": "Opportunity",
+                "text4": "In Clothing Style" 
+            }
+            
+        }
+
+    },
+
+    "contact" : {
+
+        "form" : {
+
+            "contacts" : "Contact with us",
+            "getintouch" : "Get In Touch",
+            "desc" : "You can contact us by filling out the form below and express your requests, suggestions and complaints.",
+            "name" : "Your Name",
+            "mail" : "Your email",
+            "subject" : "Subject",
+            "message" : "Your message",
+            "button" : "Send Message"
+
+        },
+
+        "showroom" : {
+
+            "phone" : "Phone",
+            "mail" : "Email",
+
+            "hours" : "Opening Hours",
+            "weekdays" : "Monday - Saturday : 9am-5pm",
+            "weekend" : "Sunday Closed"
+
+        }
+
+    },
+
+    "footer" : {
+
+        "home" : "Home",
+        "products" : "Products",
+        "contact" : "Contact Us",
+
+        "footergetemail" : "Enter your email for info on new items, sales and more.",
+        "footergetemaildp" : "We`ll email you when there is a discount.",
+
+        "signup" : "Sign Up",
+        "enteryouremail": "Enter your email address.",
+        "agreeterms" : "By sign up you agree to our Terms & Conditions and Privacy & Cookies Policy.",
+
+        "contactus" : "Contact Us",
+        "available" : "We are available 8:00am – 7:00pm on weekdays",
+
+        "shoppingapp" : "Shopping App",
+        "shoppingapptxt" : "Our application will be on your phones very soon.",
+        "ataturk" : "We will leave everything to the youth... They are the hope and bright flowers of the future. All of my hope is in the youth."
+
+    },
+
+    "products": {
+        "male": "Male",
+        "female": "Female",
+        "sneakers": "Sneakers",
+        "boots": "Boots",
+        "black-white": "Black-White",
+        "unisex": "Unisex",
+        "black" : "Black",
+        "t-shirt": "T-Shirt"
+      },
+
+    "product": {
+        "search": {
+            "text" : "Search Products",
+            "button": "Search"
+        },
+
+        "orderbyprice": {
+            "select": "Choose one",
+            "inc": "Increasing by Price",
+            "dec": "Decreasing by Price"
+        }
+      },
+
+    "user" : {
+        "login" : {
+            "login" : "Login",
+            "username" : "Username",
+            "password" : "Password",
+            "rememberme" : "Remember me",
+            "lostyourpassword" : "Lost your password?"
+        }, 
+        "register" : {
+            "register" : "Register",
+            "username" : "Username",
+            "email" : "Email address",
+            "password" : "Password",
+            "text" : "Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our privacy policy."
+        }
+    }
+}

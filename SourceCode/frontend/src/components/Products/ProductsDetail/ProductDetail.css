@@ -1,0 +1,153 @@
+.product-detail-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .product-upper-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .product-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .product-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .product-info {
+    flex: 2;
+    margin-left: 20px;
+  }
+  
+  .product-info h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .product-info table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .product-info table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .product-info table td:first-child {
+    font-weight: bold;
+    width: 150px;
+  }
+  
+  .add-to-cart-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+  
+  .add-to-cart-button:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .interaction-section {
+    margin-top: 40px;
+    width: 100%;
+  }
+  
+  .comments-section, .questions-section {
+    margin-top: 20px;
+  }
+  
+  .comment-form, .question-form {
+    margin-top: 20px;
+  }
+  
+  .comment-form input, .question-form input,
+  .comment-form textarea, .question-form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .comment-form button, .question-form button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .comment-form button:hover, .question-form button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+  }
+  
+  .comment-form textarea, .question-form textarea {
+    height: 100px;
+  }
+  
+  .comments-section ul, .questions-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .comments-section li, .questions-section li {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .comments-section p, .questions-section p {
+    margin: 5px 0;
+  }
+  
+  .rating {
+    color: lightgray; /* Boş yıldız rengi */
+    font-size: 1.5rem; /* Yıldız boyutu */
+    text-align: center;
+    margin: 5px 0;
+  }
+  
+  .rating .filled {
+    color: black; /* Dolu yıldız rengi */
+    cursor: pointer;
+  }
+  
+  .rating span {
+    cursor: pointer;
+  }
+  
+  .rating2 {
+    color: lightgray; /* Boş yıldız rengi */
+    font-size: 1.5rem; /* Yıldız boyutu */
+    text-align: center;
+    margin: 5px 0;
+    padding-left: 20px;
+  }
+  
+  .rating2 .filled {
+    color: black; /* Dolu yıldız rengi */
+    cursor: pointer;
+  }
+  
+  .rating2 span {
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,46 @@
+.search {
+    width: 80%;
+    margin: 5px;
+    padding: 40px 50px 10px 100px;
+}
+
+.search-box {
+    
+    display: inline-block;
+    position: relative;
+    width:100%;
+    line-height: 40px;
+    justify-content: flex-end; /* Sağ tarafa hizalama */
+  }
+  
+  .search-input {
+    padding: 8px 10px;
+    border: 1px solid black;
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .searchbtn {
+    padding: 0 25px;
+    line-height: 40px;
+    font-weight: 500;
+    font-size:15px;
+    border: 1px solid black;
+    transition: 0.2s ease all;
+  }
+
+  .searchbtn-lg {
+    line-height: 45px;
+  }
+
+  .searchbtn-primary {
+    background-color: black;
+    color: #fff;
+    border-color: black;
+  }
+  
+  .searchbtn-primary:hover {
+    background-color: transparent;
+    color: black;
+  }
+  

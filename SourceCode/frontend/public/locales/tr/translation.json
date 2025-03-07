@@ -1,0 +1,174 @@
+{
+   
+    "header" : {
+
+        "sale" : "TÜM YAZ ÜRÜNLERİNDE YAZ İNDİRİMİ VE ÜCRETSİZ TESLİM - %50 İNDİRİM! ŞİMDİ SATIN AL",
+
+        "home" : "ANASAYFA",
+        "products" : "ÜRÜNLER",
+        "contact" : "İLETİŞİM"
+
+   },
+
+   "policy" : {
+
+        "freedelivery" : "ÜCRETSİZ TESLİMAT",
+        "freedelivery2" : "59.89$ ve Üzeri",
+
+        "support" : "7/24 DESTEK",
+        "support2" : "24 Saat Çevrimiçi",
+
+        "return" : "30 GÜN İADE",
+        "return2" : "30 Gün içerisinde iade edebilirsiniz.",
+
+        "payment" : "ÖDEME YÖNTEMİ",
+        "payment2" : "Güvenli Ödeme"
+
+   },
+
+   "home" : {
+
+        "main-slider" : {
+
+                "slider1" : "2024 YAZ MEVSİMİ",
+                "slider2" : "%50'YE VARAN İNDİRİM",
+                "sliderbtn" : "ŞİMDİ KEŞFEDİN"
+
+        },
+
+        "campaignsingle" : {
+
+                "sale" : "Yeni Sezon İndirimi",
+                "sale2" : "%40'dan başlayan fiyatlarla",
+                "salebtn" : "ŞİMDİ SATIN AL"
+
+        },
+
+        "featured" : {
+
+            "products" : "Öne Çıkan Ürünler",
+            "viewall": "Tümünü Göster",
+
+            "campaignitem1": { 
+                "text1": "Kadın Casual",
+                "text2": "Giyim Tarzında",
+                "text3": "Öne Çıkan",
+                "text4": "Fırsat"
+            },
+
+            "campaignitem2": {
+                "text1": "Erkek Casual",
+                "text2": "Giyim Tarzında",
+                "text3": "Öne Çıkan",
+                "text4": "Fırsat"
+            },
+
+            "campaignitem3": { 
+                "text1": "Streatwear",
+                "text2": "Giyim Tarzında",
+                "text3": "Öne Çıkan",
+                "text4": "Fırsat"
+            },
+
+            "campaignitem4": { 
+                "text1": "Denim",
+                "text2": "Giyim Tarzında",
+                "text3": "Öne Çıkan",
+                "text4": "Fırsat"
+            }
+
+        }
+    },
+
+    "contact" : {
+
+        "form" : {
+    
+            "contacts" : "Bizimle İletişime Geçin",
+            "getintouch" : "Size Geri Dönelim",
+            "desc" : "Aşağıdaki formu doldurarak bizlere ulaşabilir, talep, öneri ve şikayetlerinizi belirtebilirsiniz.",
+            "name" : "Ad",
+            "mail" : "E-posta",
+            "subject" : "Konu",
+            "message" : "Mesaj",
+            "button" : "Mesajı Gönder"
+    
+            },
+    
+        "showroom" : {
+
+            "phone" : "Telefon",
+            "mail" : "E-posta",
+
+            "hours" : "Çalışma Saatleri",
+            "weekdays" : "Pazartesi - Cumartesi: 09:00-17:00",
+            "weekend" : "Pazar Günü Kapalı"
+
+            }
+
+        },
+
+   "footer" : {
+
+        "home" : "Anasayfa",
+        "products" : "Ürünler",
+        "contact" : "Bize Ulaşın",
+
+        "footergetemail" : "Yeni ürünler, indirimler ve daha fazlası hakkında bilgi almak için e-postanızı girin.",
+        "footergetemaildp" : "İndirim olduğunda size e-posta yoluyla haber vereceğiz.",
+
+        "signup" : "Kayıt Ol",
+        "enteryouremail" : "E-posta adresinizi giriniz.",
+        "agreeterms" : "Kayıt olarak Şart, Koşul, Gizlilik ve Çerez Politikamızı kabul etmiş olursunuz.",
+
+        "contactus" : "Bize Ulaşın",
+        "available" : "Hafta içi 08:00 - 19:00 arası açığız",
+        
+        "shoppingapp" : "Alışveriş Uygulaması",
+        "shoppingapptxt" : "Uygulamamız çok yakında telefonlarınızda.",
+        "ataturk" : "Biz her şeyi gençliğe bırakacağız... Geleceğin ümidi, ışıklı çiçekleri onlardır. Bütün ümidim gençliktedir."
+
+   },
+
+   "products": {
+        "male": "Erkek",
+        "female": "Kadın",
+        "sneakers": "Spor Ayakkabı",
+        "boots": "Bot Ayakkabı",
+        "black-white": "Siyah-Beyaz",
+        "unisex": "Unisex",
+        "black": "Siyah",
+        "t-shirt": "Tişört"
+    },
+
+  "product": {
+        "search": {
+            "text" : "Ürünleri Ara",
+            "button": "Ara"
+    },
+
+        "orderbyprice": {
+            "select" : "Seçiniz",
+            "inc": "Fiyata Göre Artan",
+            "dec": "Fiyata Göre Azalan"
+        }
+  },
+    "user" : {
+        "login" : {
+            "login" : "Giriş Yap",
+            "username" : "Kullanıcı adı",
+            "password" : "Şifre",
+            "rememberme" : "Beni hatırla",
+            "lostyourpassword" : "Şifremi unuttum"
+        }, 
+        "register" : {
+            "register" : "Kayıt Ol",
+            "username" : "Kullanıcı adı",
+            "email" : "E-posta Adresi",
+            "password" : "Şifre",
+            "text" : "Kişisel verileriniz bu web sitesindeki deneyiminizi desteklemek, hesabınıza erişimi yönetmek ve gizlilik politikamızda açıklanan diğer amaçlar için kullanılacaktır."
+        }
+    }
+
+
+}

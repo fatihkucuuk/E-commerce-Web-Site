@@ -1,0 +1,34 @@
+.sorting {
+    width: 20%;
+    margin: 5px;
+    padding: 40px 50px 10px 0px;
+    text-align: left;
+
+}
+
+/* Temel stiller */
+.select {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  background-color: #f8f8f8;
+  background-image: linear-gradient(45deg, transparent 50%, #f1f1f1 50%), linear-gradient(135deg, #f1f1f1 50%, transparent 50%);
+  background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px);
+  background-size: 5px 5px, 5px 5px;
+  background-repeat: no-repeat;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+/* Mouse üzerine geldiğinde stil */
+.select:hover {
+  border-color: #aaa;
+}
+
+/* Odaklandığında stil */
+.select:focus {
+  border-color: #555;
+}
